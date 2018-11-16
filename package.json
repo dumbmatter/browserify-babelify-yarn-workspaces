@@ -1,0 +1,15 @@
+{
+  "name": "browserify-babelify-yarn-workspaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "browserify a/index.js -t babelify --outfile bundle.js"
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.6",
+    "@babel/preset-env": "7.1.6",
+    "babelify": "10.0.0",
+    "browserify": "16.2.3"
+  }
+}
